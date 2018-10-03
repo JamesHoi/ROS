@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "ARDUINO=10800"
+            ],
+            "includePath": [
+                "C:\\Users\\XJH\\AppData\\Local\\Arduino15\\packages\\Intel\\tools\\**",
+                "C:\\Users\\XJH\\AppData\\Local\\Arduino15\\packages\\Intel\\hardware\\arc32\\2.0.2\\**",
+                "D:\\Program Files\\Arduino\\hardware\\arduino\\avr\\**",
+                "D:\\Program Files\\Arduino\\tools\\**",
+                "D:\\Program Files\\Arduino\\hardware\\tools\\**",
+                "D:\\Program Files\\Arduino\\libraries\\**",
+                "C:\\Users\\XJH\\Documents\\Arduino\\hardware\\tools\\**",
+                "C:\\Users\\XJH\\Documents\\Arduino\\libraries\\**"
+            ],
+            "forcedInclude": [
+                "C:\\Users\\XJH\\AppData\\Local\\Arduino15\\packages\\Intel\\hardware\\arc32\\2.0.2\\cores\\arduino\\Arduino.h"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
