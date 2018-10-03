@@ -1,8 +1,8 @@
-# Install script for directory: /home/jameshoi/smartcar/src/smartcar_simulation/smartcar_fake
+# Install script for directory: /home/jameshoi/ROS/smartcar/src/smartcar_simulation/smartcar_fake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jameshoi/smartcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jameshoi/ROS/smartcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fake.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fake.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_fake/cmake" TYPE FILE FILES
-    "/home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fakeConfig.cmake"
-    "/home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fakeConfig-version.cmake"
+    "/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fakeConfig.cmake"
+    "/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake/catkin_generated/installspace/smartcar_fakeConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_fake" TYPE FILE FILES "/home/jameshoi/smartcar/src/smartcar_simulation/smartcar_fake/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_fake" TYPE FILE FILES "/home/jameshoi/ROS/smartcar/src/smartcar_simulation/smartcar_fake/package.xml")
 endif()
 

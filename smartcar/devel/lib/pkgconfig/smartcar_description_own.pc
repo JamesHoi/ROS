@@ -1,8 +1,0 @@
-prefix=/home/jameshoi/smartcar/devel
-
-Name: smartcar_description_own
-Description: Description of smartcar_description_own
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/jameshoi/smartcar/devel/lib 
-Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jameshoi/smartcar/src/smartcar_msgs
+# Install script for directory: /home/jameshoi/ROS/smartcar/src/smartcar_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jameshoi/smartcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jameshoi/ROS/smartcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jameshoi/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jameshoi/ROS/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_msgs/cmake" TYPE FILE FILES
-    "/home/jameshoi/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgsConfig.cmake"
-    "/home/jameshoi/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgsConfig-version.cmake"
+    "/home/jameshoi/ROS/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgsConfig.cmake"
+    "/home/jameshoi/ROS/smartcar/build/smartcar_msgs/catkin_generated/installspace/smartcar_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_msgs" TYPE FILE FILES "/home/jameshoi/smartcar/src/smartcar_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/smartcar_msgs" TYPE FILE FILES "/home/jameshoi/ROS/smartcar/src/smartcar_msgs/package.xml")
 endif()
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "smartcar_fake"
-PROJECT_SPACE_DIR = "/home/jameshoi/smartcar/install"
+PROJECT_SPACE_DIR = "/home/jameshoi/ROS/smartcar/install"
 PROJECT_VERSION = "0.1.0"

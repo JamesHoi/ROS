@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/jameshoi/smartcar/build"
+export PWD="/home/jameshoi/ROS/smartcar/build"

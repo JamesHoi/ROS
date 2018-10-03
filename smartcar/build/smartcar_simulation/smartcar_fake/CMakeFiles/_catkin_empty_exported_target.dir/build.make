@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jameshoi/smartcar/src
+CMAKE_SOURCE_DIR = /home/jameshoi/ROS/smartcar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jameshoi/smartcar/build
+CMAKE_BINARY_DIR = /home/jameshoi/ROS/smartcar/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/b
 .PHONY : smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/jameshoi/smartcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jameshoi/smartcar/src /home/jameshoi/smartcar/src/smartcar_simulation/smartcar_fake /home/jameshoi/smartcar/build /home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake /home/jameshoi/smartcar/build/smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jameshoi/ROS/smartcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jameshoi/ROS/smartcar/src /home/jameshoi/ROS/smartcar/src/smartcar_simulation/smartcar_fake /home/jameshoi/ROS/smartcar/build /home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake /home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : smartcar_simulation/smartcar_fake/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

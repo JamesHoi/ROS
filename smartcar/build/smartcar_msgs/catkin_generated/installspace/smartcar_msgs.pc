@@ -1,8 +1,8 @@
-prefix=/home/jameshoi/smartcar/install
+prefix=/home/jameshoi/ROS/smartcar/install
 
 Name: smartcar_msgs
 Description: Description of smartcar_msgs
 Version: 0.1.0
 Cflags: 
-Libs: -L/home/jameshoi/smartcar/install/lib 
+Libs: -L/home/jameshoi/ROS/smartcar/install/lib 
 Requires: 

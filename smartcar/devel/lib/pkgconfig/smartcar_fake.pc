@@ -1,8 +1,8 @@
-prefix=/home/jameshoi/smartcar/devel
+prefix=/home/jameshoi/ROS/smartcar/devel
 
 Name: smartcar_fake
 Description: Description of smartcar_fake
 Version: 0.1.0
 Cflags: 
-Libs: -L/home/jameshoi/smartcar/devel/lib 
+Libs: -L/home/jameshoi/ROS/smartcar/devel/lib 
 Requires: 

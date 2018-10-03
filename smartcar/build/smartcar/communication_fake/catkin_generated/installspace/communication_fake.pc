@@ -1,8 +1,0 @@
-prefix=/home/jameshoi/smartcar/install
-
-Name: communication_fake
-Description: Description of communication_fake
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/jameshoi/smartcar/install/lib 
-Requires: 
