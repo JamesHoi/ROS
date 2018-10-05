@@ -13,7 +13,8 @@
                 "D:\\Program Files\\Arduino\\hardware\\tools\\**",
                 "D:\\Program Files\\Arduino\\libraries\\**",
                 "C:\\Users\\XJH\\Documents\\Arduino\\hardware\\tools\\**",
-                "C:\\Users\\XJH\\Documents\\Arduino\\libraries\\**"
+                "C:\\Users\\XJH\\Documents\\Arduino\\libraries\\**",
+                "D:\\Workspace\\ROS\\Arduino\\libraries**"
             ],
             "forcedInclude": [
                 "C:\\Users\\XJH\\AppData\\Local\\Arduino15\\packages\\Intel\\hardware\\arc32\\2.0.2\\cores\\arduino\\Arduino.h"
