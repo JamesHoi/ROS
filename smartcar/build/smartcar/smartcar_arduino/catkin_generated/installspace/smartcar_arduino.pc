@@ -1,0 +1,8 @@
+prefix=/home/jameshoi/ROS/smartcar/install
+
+Name: smartcar_arduino
+Description: Description of smartcar_arduino
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jameshoi/ROS/smartcar/install/lib 
+Requires: 

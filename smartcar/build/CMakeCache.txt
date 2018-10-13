@@ -274,6 +274,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+helloworld_BINARY_DIR:STATIC=/home/jameshoi/ROS/smartcar/build/smartcar/helloworld
+
+//Value Computed by CMake
+helloworld_SOURCE_DIR:STATIC=/home/jameshoi/ROS/smartcar/src/smartcar/helloworld
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/librostime.so
 
@@ -286,8 +292,26 @@ roscpp_serialization_DIR:PATH=/opt/ros/kinetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/kinetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosserial_arduino.
+rosserial_arduino_DIR:PATH=/opt/ros/kinetic/share/rosserial_arduino/cmake
+
+//The directory containing a CMake configuration file for rosserial_client.
+rosserial_client_DIR:PATH=/opt/ros/kinetic/share/rosserial_client/cmake
+
+//The directory containing a CMake configuration file for rosserial_msgs.
+rosserial_msgs_DIR:PATH=/opt/ros/kinetic/share/rosserial_msgs/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
+
+//Value Computed by CMake
+smartcar_arduino_BINARY_DIR:STATIC=/home/jameshoi/ROS/smartcar/build/smartcar/smartcar_arduino
+
+//Dependencies for the target
+smartcar_arduino_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+smartcar_arduino_SOURCE_DIR:STATIC=/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino
 
 //Value Computed by CMake
 smartcar_fake_BINARY_DIR:STATIC=/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake
@@ -400,7 +424,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.5
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS

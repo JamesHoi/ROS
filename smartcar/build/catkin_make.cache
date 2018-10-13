@@ -1,2 +1,2 @@
-smartcar_msgs:smartcar_simulation/smartcar_fake:smartcar_simulation/smartcar_gazebo
--G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/jameshoi/ROS/smartcar/devel -DCMAKE_INSTALL_PREFIX=/home/jameshoi/ROS/smartcar/install
+smartcar/helloworld:smartcar/smartcar_arduino:smartcar_msgs:smartcar_simulation/smartcar_fake:smartcar_simulation/smartcar_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/jameshoi/ROS/smartcar/devel -DCMAKE_INSTALL_PREFIX=/home/jameshoi/ROS/smartcar/install -G Unix Makefiles

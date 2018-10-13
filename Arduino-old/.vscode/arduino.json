@@ -1,0 +1,5 @@
+{
+    "sketch": "smartcar/smartcar.cpp",
+    "port": "COM9",
+    "board": "Intel:arc32:arduino_101"
+}

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino/include/Sensor/Ultrasonic.h
+Arduino.h
+-
+
+/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino/src/config.h
+
+/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino/src/smartcar_arduino.cpp
+../include/Sensor/Ultrasonic.h
+/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino/include/Sensor/Ultrasonic.h
+config.h
+/home/jameshoi/ROS/smartcar/src/smartcar/smartcar_arduino/src/config.h
+

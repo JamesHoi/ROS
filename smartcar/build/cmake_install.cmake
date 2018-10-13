@@ -120,6 +120,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_fake/cmake_install.cmake")
   include("/home/jameshoi/ROS/smartcar/build/smartcar_simulation/smartcar_gazebo/cmake_install.cmake")
   include("/home/jameshoi/ROS/smartcar/build/smartcar_msgs/cmake_install.cmake")
+  include("/home/jameshoi/ROS/smartcar/build/smartcar/helloworld/cmake_install.cmake")
+  include("/home/jameshoi/ROS/smartcar/build/smartcar/smartcar_arduino/cmake_install.cmake")
 
 endif()
 
